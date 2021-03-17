@@ -19,7 +19,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "七月",
+    "navigationBarTitleText": "七月2",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f7f7f7"
   },
@@ -30,13 +30,13 @@
     "list": [
       {
         "pagePath": "pages/topic/index",
-        "text": "主页",
+        "text": "广场",
         "iconPath": "images/icon_tab/topic.png",
         "selectedIconPath": "images/icon_tab/topic_hl.png"
       },
       {
         "pagePath": "pages/hole/index",
-        "text": "树洞",
+        "text": "外幕",
         "iconPath": "images/icon_tab/hole.png",
         "selectedIconPath": "images/icon_tab/hole_hl.png"
       },

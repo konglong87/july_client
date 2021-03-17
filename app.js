@@ -7,8 +7,9 @@ App({
   wxutil: wxutil,
 
   globalData: {
-    appId: wx.getAccountInfoSync().miniProgram.appId,
-    githubURL: "https://github.com/YYJeffrey/july_client",
+    // appId: wx.getAccountInfoSync().miniProgram.appId,
+    appId: "wx0611fd1ba2b0bcd6",
+    githubURL: "https://github.com/konglong87/july_client",
     userDetail: null
   },
 
@@ -44,6 +45,7 @@ App({
    * Token无效跳转授权页
    */
   gotoAuthPage(res) {
+    console.log("【token无效】res1===>", res)
     if (res.data.message == "Token Is Invalid") {
       wx.navigateTo({
         url: "/pages/auth/index",
